@@ -6,11 +6,11 @@ const chatLog = document.querySelector(".chatlog");
 sendBtn.addEventListener("click", function() {
   const userMessage = userInput.value;
   if (userMessage !== "") {
-    const chatMessage = document.createElement("div");
-    chatMessage.classList.add("chat-message");
-    chatMessage.classList.add("user-message");
-    chatMessage.innerHTML = "<p>" + userMessage + "</p>";
-    chatLog.appendChild(chatMessage);
+    const userChatMessage = document.createElement("div");
+    userChatMessage.classList.add("chat-message");
+    userChatMessage.classList.add("user-message");
+    userChatMessage.innerHTML = "<p>" + userMessage + "</p>";
+    chatLog.appendChild(userChatMessage);
 
     const botMessage = responses[Math.floor(Math.random() * responses.length)];
     const botChatMessage = document.createElement("div");

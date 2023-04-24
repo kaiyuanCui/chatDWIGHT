@@ -24,13 +24,10 @@
     overflow: hidden;
   }
   
-  .chatlog {
-    flex-grow: 1;
-    overflow-y: scroll;
-    padding: 20px;
-  }
+
   
   .chat-message {
+    display: block;
     margin-bottom: 20px;
   }
   
@@ -66,5 +63,32 @@
   
   button:hover {
     background-color: #0062cc;
+  }
+  
+
+  .user-message {
+    float: right;
+    clear: both;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    display: block;
+  }
+  
+  .bot-message {
+    float: left;
+    clear: both;
+    background-color: #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    display: block;
+  }
+  
+  .chatlog {
+    overflow-y: scroll;
+    height: 400px;
   }
   
