@@ -1,25 +1,29 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <title>My Chatbot</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <div class="container">
-    <div class="chatbox">
-      <div class="chatlog">
-        <div class="chat-message bot-message">
-          <p>Hello! I'm Dwight.</p>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>chatDWT</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>chatDWT</h1>
+      </header>
+      <div class="chat-wrapper">
+        <div class="chatlog" id="chatlog">
+          <div class="chat-message bot-message">
+            <p>欢迎使用 chatDWT，我是 Dwight！</p>
+          </div>
+        </div>
+        <div class="input-wrapper">
+          <input type="text" id="user-input" placeholder="输入消息..." />
+          <button id="send-btn">发送</button>
         </div>
       </div>
-      <div class="chat-form">
-        <input type="text" placeholder="Type your message..." id="user-input">
-        <button id="send-btn">Send</button>
-      </div>
     </div>
-  </div>
-
-  <script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
