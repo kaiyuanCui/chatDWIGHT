@@ -1,5 +1,5 @@
 const responses = ["纯纯dog", "太对了", "经典", "c不动", "全靠你爹在c"];
-const faDian = ["YOU WANT TO PLAY, LETS PLAY", "我～太～c～了～", "2121212121212121"]
+const faDian = ["YOU WANT TO PLAY, LETS PLAY", "我～太～c～了～", "2121212121212121","我就是夜露king", "纯肥舞"]
 const userInput = document.getElementById("user-input");
 const sendBtn = document.getElementById("send-btn");
 const chatLog = document.querySelector(".chatlog");
